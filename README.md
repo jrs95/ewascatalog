@@ -12,6 +12,6 @@ This package allows users to query the EWAS Catalog from R.
 
 # Example
 \# CpG  
-\# Region 
-\# Gene 
-\# Trait 
+\# Region  
+\# Gene  
+\# Trait  
