@@ -6,12 +6,12 @@ Author: James Staley
 Maintainer: James Staley <js16174@bristol.ac.uk>
 Description: R package to query the EWAS Catalog from R.
 Depends:
-    R (>= 3.2.0),
-    methods
+ R (>= 3.2.0),
+ methods
 License: GPL (>= 2)
 ByteCompile: TRUE
 LazyData: TRUE
 Encoding: UTF-8
 Imports: 
-    rjson
+ rjson
 RoxygenNote: 6.0.1.9000
