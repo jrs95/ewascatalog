@@ -10,7 +10,7 @@ This package allows users to query the EWAS Catalog from R.
 3. install_github("jrs95/ewascatalog")
 4. library(ewascatalog)
 
-## Example
+## Examples
 \# CpG  
 res <- ewascatalog(cpgquery="cg00029284")  
 
