@@ -52,7 +52,7 @@ ewascatalog <- function(cpgquery=NULL,regionquery=NULL,genequery=NULL,traitquery
       next
     }
     fields <- json_data$fields
-    tables <- as.data.frame(matrix(unlist(json_data$results), ncol=length(fields), byrow=T))
+    tables <- as.data.frame(matrix(unlist(json_data$results), ncol=length(fields), byrow=T), stringsAsFactors=F)
     names(tables) <- fields
     results <- rbind(results,tables)
   }
